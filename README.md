@@ -60,15 +60,15 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-**Hire Job** is here to help you cook delicious and simple meals. We offer recipes and cooking advice for home cooks, by home cooks. Mama Recipe is a web-based recipe sharing that applicaion that allow user to share their recipe, liked, and comment. Just like social media. In this app, user could take a look into recipe including it's ingredients and video step.
+**Hire Job**  is an innovative platform that integrates job search for employees and talent search for recruiters. With advanced features, employees can search for jobs that match their skills and interests through personal profiles, uploaded resumes, and portfolios. Meanwhile, recruiters can create company profiles, upload job listings, and use intelligent matching algorithms to find potential candidates. With communication features that facilitate interaction between employees and recruiters, this application provides practical and connected solutions for both parties in searching and recruiting the best talents.
 
 ### Built With
 This app was built with some technologies below:
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=id)
+* [NextJS](https://nextjs.org/)
 * [Javascript](https://www.javascript.com/)
-* [React](https://vuejs.org/v2)
+* [Material-Tailwind](https://www.material-tailwind.com/)
 * [Axios](https://axios-http.com/)
-* [Redux](https://redux.js.org/)
+* [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -85,14 +85,14 @@ Before going to the installation stage there are some software that must be inst
 
 ### Installation
 
-If you want to run this project locally, We recommend you to configure the [back-end](https://github.com/kokolopo/Food-Recipe-API) first before configuring this repo front-end.
+If you want to run this project locally, We recommend you to configure the [back-end](https://github.com/kokolopo/hire-job-api) first before configuring this repo front-end.
 - Clone the repo
 ```
-git clone https://github.com/kokolopo/food-recipes.git
+git clone https://github.com/kokolopo/hire-job-api.git
 ```
 - Go To Folder Repo
 ```
-cd food-recipes
+cd hire-job-api
 ```
 - Install Module
 ```
@@ -100,6 +100,7 @@ npm install
 ```
 - <a href="#setup-env">Setup .env</a>
 - Type ` npm run dev` To Start Website
+- Type ` npm run build` To Build app
 - Type ` npm run start` To Start Production
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -107,9 +108,7 @@ npm install
 ### Setup .env example
 Create .env file in your root project folder.
 ```
-REACT_APP_APP_NAME = [APP_NAME]
-REACT_APP_NODE_ENV = [NODE_ENV]
-REACT_APP_API_URL = [API_URL]
+API_URL = [API_URL]
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
