@@ -1,34 +1,233 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/kokolopo/hire-job">
+    <img src="https://www.linkpicture.com/q/Logo_3.png" alt="Logo" width="150px">
+  </a>
+
+  <h3 align="center">Hire Job</h3>
+
+  <p align="center">
+    Find talented & best developers in various fields of expertise.
+    <br />
+    <a href="#table-of-contents"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://bit.ly/food-recipes">View Demo</a>
+    ·
+    <a href="https://github.com/kokolopo/hire-job/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/kokolopo/hire-job/issues">Request Feature</a>
+    <br />
+    <p align="center">
+      <a href="https://github.com/kokolopo/hire-job/"><img src="https://img.shields.io/github/issues/kokolopo/hire-job?style=flat"></a>
+      <a href="https://github.com/kokolopo/hire-job/"><img src="https://img.shields.io/github/forks/kokolopo/hire-job?style=flat"></a>
+      <a href="https://github.com/kokolopo/hire-job/"><img src="https://img.shields.io/github/stars/kokolopo/hire-job?style=flat"></a>
+      <a href="https://github.com/kokolopo/hire-job/"><img src="https://img.shields.io/github/license/kokolopo/hire-job?style=flat"></a>
+    </p>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+ ## Table of Contents
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#setup-env-example">Setup .env example</a></li>
+      </ul>
+    </li>
+    <li><a href="#screenshoots">Screenshots</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#related-project">Related Project</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+**Hire Job** is here to help you cook delicious and simple meals. We offer recipes and cooking advice for home cooks, by home cooks. Mama Recipe is a web-based recipe sharing that applicaion that allow user to share their recipe, liked, and comment. Just like social media. In this app, user could take a look into recipe including it's ingredients and video step.
+
+### Built With
+This app was built with some technologies below:
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=id)
+* [Javascript](https://www.javascript.com/)
+* [React](https://vuejs.org/v2)
+* [Axios](https://axios-http.com/)
+* [Redux](https://redux.js.org/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Before going to the installation stage there are some software that must be installed first.
+
+* [NodeJs](https://nodejs.org/en/download/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Installation
+
+If you want to run this project locally, We recommend you to configure the [back-end](https://github.com/kokolopo/Food-Recipe-API) first before configuring this repo front-end.
+- Clone the repo
+```
+git clone https://github.com/kokolopo/food-recipes.git
+```
+- Go To Folder Repo
+```
+cd food-recipes
+```
+- Install Module
+```
+npm install
+```
+- <a href="#setup-env">Setup .env</a>
+- Type ` npm run dev` To Start Website
+- Type ` npm run start` To Start Production
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Setup .env example
+Create .env file in your root project folder.
+```
+REACT_APP_APP_NAME = [APP_NAME]
+REACT_APP_NODE_ENV = [NODE_ENV]
+REACT_APP_API_URL = [API_URL]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Screenshoots
+<p align="center" display=flex>
+<table>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1UN7NI7Vu2NA01p5PoIhVZ4kSURmPzh7g" alt="Landing Page" width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1I3TT_chSyesVo2azb1Bd1_kl0plsYO08" alt="Landing Page After Login" width=100%/></td>
+  </tr>
+   <tr>
+    <td>Landing Page</td>
+    <td>Landing Page After Login</td>
+  </tr>
+ 
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/11Z2P-4cJKQkc-sEqblc3O2cPrffQ-Qwz" alt="Login Page" width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1q-NdmAh2PnkD8Z4ax-h2Ayao6o_d1jAH" alt="Register Page" width=100%/></td>
+  </tr>
+   <tr>
+    <td>Login Page</td>
+    <td>Register Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1i0yw0ksYsIkBqdF6IlYvRmWVsMzadi5x" alt="Forgot Password Page" width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1Eqc_cXDDHwVb_1VIfZsDVKlRFNkk8AGY" alt="Code Verification Page" width=100%/></td>
+  </tr>
+  <tr>
+    <td>Forgot Password Page</td>
+    <td>Code Verification Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1NhZtMm6FZdTp9ikeBldPUvnHPziOU220" alt="Reset Password Page" width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1M8KX4OGoGe556yGPXZslqwHcJsKE1tIJ" alt="List Recipe Page" width=100%/></td>
+  </tr>
+  <tr>
+    <td>Reset Password Page</td>
+    <td>List Recipe Page</td>
+  </tr>
 
-## Learn More
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1zhq5AQ0zta-z6fw9ZPnONXf5FJaiq9UW" alt="Detail Recipe Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1LYHTBdLikPqr62w_EKFyAUH7zj7SWvHY" alt="Detail Video Page" width=100%></td>
+  </tr>
+  <tr>
+      <td>Detail Recipe Page</td>
+      <td>Detail Video Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1oAhnZc_-DHV0v8a-GpOe-jix-wYei71f" alt="Add Recipe Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1HFnzIcS29DOdej0OpG4f_9FRHAx5mpRV" alt="Edit Recipe Page"' width=100%></td>
+  </tr>
+  <tr>
+    <td>Add Recipe Page</td>
+    <td>Edit Recipe Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1v6o5zbUONfDZbvuv4b9VyygrTw_qnI3B" alt="View Another Profile Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1an5NnJynGmo90flX5SX35xbuVMStJ4EJ" alt="My Profile Page"' width=100%></td>
+  </tr>
+  <tr>
+    <td>View Another Profile Page</td>
+    <td>My Profile Page</td>
+  </tr>
 
-To learn more about Next.js, take a look at the following resources:
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1jQ8irQ2Zic-NRgcU6Hnf8n6lLqT_1LSZ" alt="Edit Profile Page" width=100%></td> 
+    <td><image src="https://lh3.googleusercontent.com/d/1-rRfdYe7jzhNiqVi6A5BMZRmP4A8VSNK" alt="Change Password Page" width=100%></td>  
+  </tr>
+  <tr>
+    <td>Edit Profile Page</td>
+    <td>Change Password Page</td>
+  </tr>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+</table>
+      
+</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Related Project
+:rocket: [`Backend Mama Recipe`](https://github.com/kokolopo/Food-Recipe-API)
+
+:rocket: [`Frontend Mama Recipe`](https://github.com/kokolopo/food-recipes)
+
+<!-- :rocket: [`Web Service`](https://mama-recipe.herokuapp.com/) -->
+
+:rocket: [`Demo Mama Recipe`](https://food-recipes-teal.vercel.app/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Contact
+
+My Email : hadifah3@gmail.com
+
+Project Link: [https://github.com/kokolopo/food-recipes](https://github.com/kokolopo/food-recipes)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## License
+Distributed under the [MIT](/LICENSE) License.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
