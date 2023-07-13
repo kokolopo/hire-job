@@ -2,26 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.btn-landing{
+    @apply px-5 py-[10px] rounded-md text-sm font-semibold;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.opini-card{
+    @apply w-[335px] h-[430px] flex flex-col justify-center items-center space-y-3 rounded-xl shadow-md;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.hero {
+    @apply bg-authBG h-full bg-cover bg-center bg-no-repeat relative
+}
+
+.layer{
+    @apply absolute bg-primaryColor bg-opacity-70 w-full h-full
+}
+
+.skill {
+    @apply bg-[#fbaf17ab] w-fit py-1 px-6 text-white text-xs font-semibold rounded border-[#FBB017] border;
+}
+
+.fokus{
+    @apply text-xl font-semibold border-b-2 border-primaryColor;
+}
+
+.unfokus{
+    @apply hover:border-b-2 hover:border-primaryColor hover:text-primaryText hover:cursor-pointer text-[#9EA0A5] py-1 font-semibold text-xl;
 }
