@@ -116,77 +116,85 @@ API_URL = [API_URL]
 ## Screenshoots
 <p align="center" display=flex>
 <table>
-
-  <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1UN7NI7Vu2NA01p5PoIhVZ4kSURmPzh7g" alt="Landing Page" width=100%></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1I3TT_chSyesVo2azb1Bd1_kl0plsYO08" alt="Landing Page After Login" width=100%/></td>
+ <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1tzS8NBQtMGku6cXficIW5wQClduek1KQ" alt="Landing Page" width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1vALeDMD_fNkAKQqqqRuFDHt11nGbSBh6" alt="Landing Page After Login" width=100%/></td>
   </tr>
    <tr>
     <td>Landing Page</td>
     <td>Landing Page After Login</td>
   </tr>
- 
+  
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/11Z2P-4cJKQkc-sEqblc3O2cPrffQ-Qwz" alt="Login Page" width=100%></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1q-NdmAh2PnkD8Z4ax-h2Ayao6o_d1jAH" alt="Register Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1oag1KBgj-fQAzsmwjvNPCOELoqAeXbEO" alt="Login Page" width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/17yeQqw408hiDDOyFZq17Fw3ovnswsQ7D" alt="Forgot Password Page" width=100%/></td>
   </tr>
    <tr>
     <td>Login Page</td>
-    <td>Register Page</td>
-  </tr>
-  
-  <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1i0yw0ksYsIkBqdF6IlYvRmWVsMzadi5x" alt="Forgot Password Page" width=100%></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1Eqc_cXDDHwVb_1VIfZsDVKlRFNkk8AGY" alt="Code Verification Page" width=100%/></td>
-  </tr>
-  <tr>
     <td>Forgot Password Page</td>
-    <td>Code Verification Page</td>
   </tr>
   
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1NhZtMm6FZdTp9ikeBldPUvnHPziOU220" alt="Reset Password Page" width=100%></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1M8KX4OGoGe556yGPXZslqwHcJsKE1tIJ" alt="List Recipe Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1nshaEdAJsPJUPJ4uR1bmM_275Rrf6zlb" alt="Register Worker Page" width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1ovMJdHmSF2b1MfGMEbXM22YbyJhF1305" alt="Register Recruiter Page" width=100%/></td>
+  </tr>
+   <tr>
+    <td>Register Worker Page</td>
+    <td>Register Recruiter Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1Rv3GPrjZCZkgf7jJkXTUo7Rq21qT0RWF" alt="Reset Password Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1faiv7WfqKLpWx4fT67ITpTqhg0AGIvma" alt="Send Message" width=100%></td>
   </tr>
   <tr>
     <td>Reset Password Page</td>
-    <td>List Recipe Page</td>
-  </tr>
-
-  <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1zhq5AQ0zta-z6fw9ZPnONXf5FJaiq9UW" alt="Detail Recipe Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1LYHTBdLikPqr62w_EKFyAUH7zj7SWvHY" alt="Detail Video Page" width=100%></td>
-  </tr>
-  <tr>
-      <td>Detail Recipe Page</td>
-      <td>Detail Video Page</td>
+    <td>Send Message</td>
   </tr>
   
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1oAhnZc_-DHV0v8a-GpOe-jix-wYei71f" alt="Add Recipe Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1HFnzIcS29DOdej0OpG4f_9FRHAx5mpRV" alt="Edit Recipe Page"' width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1xa6v3_KTTxLq9yENUX5FQ0dDfexhLHhT" alt="List Worker Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1uaE7J2Chz_sd0C546eiUzeiqfZk9KV35" alt="List Recruiter Page" width=100%></td>
   </tr>
   <tr>
-    <td>Add Recipe Page</td>
-    <td>Edit Recipe Page</td>
+    <td>List Worker Page</td>
+    <td>List Recruiter Page</td>
   </tr>
   
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1v6o5zbUONfDZbvuv4b9VyygrTw_qnI3B" alt="View Another Profile Page" width=100%/></td>
-    <td><image src="https://lh3.googleusercontent.com/d/1an5NnJynGmo90flX5SX35xbuVMStJ4EJ" alt="My Profile Page"' width=100%></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1rAB9MAE1YXduQR54z2GV4-LIUjULrlHt" alt="Profile Worker - Portofolio Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1kK97he_sI5VXQu386PCdWMa5mIOMrJof" alt="Profile Worker - Experience Page" width=100%></td>
   </tr>
   <tr>
-    <td>View Another Profile Page</td>
-    <td>My Profile Page</td>
+    <td>Profile Worker - Portofolio Page</td>
+    <td>Profile Worker - Experience Page</td>
   </tr>
-
+  
   <tr>
-    <td><image src="https://lh3.googleusercontent.com/d/1jQ8irQ2Zic-NRgcU6Hnf8n6lLqT_1LSZ" alt="Edit Profile Page" width=100%></td> 
-    <td><image src="https://lh3.googleusercontent.com/d/1-rRfdYe7jzhNiqVi6A5BMZRmP4A8VSNK" alt="Change Password Page" width=100%></td>  
+    <td><image src="https://lh3.googleusercontent.com/d/10QlGAEHAQKd7uUjGX7PdEgahAIWdDgEx" alt="Detail Worker Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1Lg2xtIj-Bw66hfeiw43UkXWWE-Yl8Suf" alt="Edit Profile Worker Page" width=100%></td>
   </tr>
   <tr>
-    <td>Edit Profile Page</td>
-    <td>Change Password Page</td>
+    <td>Detail Worker Page</td>
+    <td>Edit Profile Worker Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/1JC4ey8k86NJ7y6yigBRWV85ca5rZguBh" alt="Profile Recruiter Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1_TUFkzjW2SdQOuUdzPFi1yfNus2fdgqX" alt="Detail Recruiter Page" width=100%></td>
+  </tr>
+  <tr>
+    <td>Profile Recruiter Page</td>
+    <td>Detail Recruiter Page</td>
+  </tr>
+  
+  <tr>
+    <td><image src="https://lh3.googleusercontent.com/d/11rAYOaeWBScl3H8V7zIfIHMwtyWcwBhr" alt="Edit Profile Recruiter Page" width=100%/></td>
+    <td><image src="https://lh3.googleusercontent.com/d/1f_AUAzw2cVNNIp7EZ27snqve0ze1udI7" alt="Hire Page" width=100%></td>
+  </tr>
+  <tr>
+    <td>Edit Profile Recruiter Page</td>
+    <td>Hire Page</td>
   </tr>
 
 </table>
@@ -208,13 +216,13 @@ Contributions are what make the open source community such an amazing place to b
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Related Project
-:rocket: [`Backend Mama Recipe`](https://github.com/kokolopo/Food-Recipe-API)
+:rocket: [`Backend Hire Job`](https://github.com/kokolopo/hire-job-api)
 
-:rocket: [`Frontend Mama Recipe`](https://github.com/kokolopo/food-recipes)
+:rocket: [`Frontend Hire Job`](https://github.com/kokolopo/hire-job)
 
 <!-- :rocket: [`Web Service`](https://mama-recipe.herokuapp.com/) -->
 
-:rocket: [`Demo Mama Recipe`](https://food-recipes-teal.vercel.app/)
+:rocket: [`Demo Hire Job`](https://food-recipes-teal.vercel.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
